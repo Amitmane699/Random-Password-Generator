@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form {
+   
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30rem;
+    height: 38rem;
+    padding: 0.1rem;
+    border-radius: 8px;
+   
+    
+  
+    background: rgb(246, 245, 245);
+
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+   
+  }
+  body{
+    background-color:#ffff0098 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h2{
+    color: blue;
+  }
+  #length{
+    padding: 0.1rem;
+    width: 72px;
+    border-radius: 8px;
+    text-size-adjust: 10;
+
+  }
+  label{
+    color: blueviolet;
+  }
+  .form {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  label {
+    
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  input[type="number"] {
+    width: 50px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: inline;
+    padding: 1rem;
+    justify-content: space-evenly;
+   
+    
+  }
+  
+  input[type="text"] {
+    width: 370px;
+    margin-top: 10px;
+    padding: 0.8rem;
+    border-radius: 0.1rem;
+    padding: 0.4rem;
+    border: none;
+    outline: none;
+    font-size: medium;
+    border-radius: 8px;
+    border: 1px solid grey;
+    width: 80%;
+
+  }
+  
+  #copy {
+   
+    position: relative;
+    top: 39pt;
+   left: 5rem;
+    
+  }
+  .bt1{
+    position: absolute;
+    bottom: 9rem;
+    right: 50rem;
+  
+    
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+  }
+  button:hover{
+    background-color: red;
+    color:white ;
+    transition:0.5s ;
+  }
